@@ -17,7 +17,7 @@
         <br/><br/>
         <main>
             <figure> 
-                <img src='img/me.png' alt='Picture of Christopher'/>
+                <img src='img/me.jpg' alt='Picture of Christopher'/>
             </figure>
             <div>
                 Hello!
