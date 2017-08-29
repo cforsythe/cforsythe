@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Christopher Forsythe: Personal Website</title>
         <meta charset="utf-8"/>
     </head>
     <body>
