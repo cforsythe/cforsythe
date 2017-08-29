@@ -30,6 +30,13 @@
                 <br/>
                 - Ralph Waldo Emerson
             </div>
+            <footer>
+                <hr>
+                CST336 Internet Programming. 2017&copy; Forsythe <br/>
+                <strong>Disclaimer: </strong> The information used in this web page may be fictitious.
+                <br/>
+                It is used for academic purposes only.
+            </footer>
             
         </main>
         
