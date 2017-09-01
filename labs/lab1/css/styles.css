@@ -29,12 +29,23 @@ header h1{
 table{
     margin: 0px auto;
 }
-#music{
+#music, #crypto{
     text-decoration: none;
     cursor:pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#music:hover, #crypto:hover{
+    overflow: visible;
+    white-space: normal;
+    word-wrap: break-word;
 }
 #hobby{
     color:#778899;
+}
+ul{
+    list-style-type: none;
 }
 ul li{
     color:gray;
