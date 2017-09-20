@@ -1,0 +1,21 @@
+[14-Sep-2017 01:37:24 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:13 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:15 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:15 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:16 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:16 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:16 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[14-Sep-2017 01:38:16 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/ubuntu/workspace/cforsythe/homework/homework2/index.php on line 5
+[20-Sep-2017 07:29:23 UTC] PHP Warning:  Missing argument 3 for display(), called in /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php on line 15 and defined in /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php on line 18
+[20-Sep-2017 07:29:23 UTC] PHP Stack trace:
+[20-Sep-2017 07:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework2/index.php:0
+[20-Sep-2017 07:29:23 UTC] PHP   2. generate() /home/ubuntu/workspace/cforsythe/homework/homework2/index.php:15
+[20-Sep-2017 07:29:23 UTC] PHP   3. display() /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php:15
+[20-Sep-2017 07:29:23 UTC] PHP Warning:  Missing argument 3 for display(), called in /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php on line 15 and defined in /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php on line 18
+[20-Sep-2017 07:29:23 UTC] PHP Stack trace:
+[20-Sep-2017 07:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework2/index.php:0
+[20-Sep-2017 07:29:23 UTC] PHP   2. generate() /home/ubuntu/workspace/cforsythe/homework/homework2/index.php:15
+[20-Sep-2017 07:29:23 UTC] PHP   3. display() /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php:15
+[20-Sep-2017 10:12:13 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cforsythe/homework/homework2/inc/functions.php on line 45
+[20-Sep-2017 10:12:13 UTC] PHP Stack trace:
+[20-Sep-2017 10:12:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework2/index.php:0

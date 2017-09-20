@@ -1,0 +1,6 @@
+[20-Sep-2017 10:08:52 UTC] PHP Fatal error:  Call to undefined function getRGB() in /home/ubuntu/workspace/cforsythe/homework/homework2/css/styles.php on line 35
+[20-Sep-2017 10:08:52 UTC] PHP Stack trace:
+[20-Sep-2017 10:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework2/css/styles.php:0
+[20-Sep-2017 10:13:07 UTC] PHP Fatal error:  Call to undefined function getRGB() in /home/ubuntu/workspace/cforsythe/homework/homework2/css/styles.php on line 35
+[20-Sep-2017 10:13:07 UTC] PHP Stack trace:
+[20-Sep-2017 10:13:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework2/css/styles.php:0
