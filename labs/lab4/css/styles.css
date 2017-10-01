@@ -1,16 +1,39 @@
-    body{
-        opacity:0.9;
-        width:100%;
-        text-align:center;
-        color:yellow;
-    }
-    
-    input {
-        font-size: 3em;
-        color: black;
-    }
-    
-    #carousel-example-generic {
-         margin: 0 auto;   
-         width: 700px;
-    }
+body{
+    opacity:0.9;
+    width:100%;
+    text-align:center;
+    color:#00FFA6;
+}
+
+input {
+    font-size: 3em;
+    color: #00FFA6;
+    border-radius: 8px;
+}
+::-webkit-input-placeholder{
+    color: #00FFA6;
+}
+
+#carousel-example-generic {
+     margin: 0 auto;   
+     width: 700px;
+     height: auto;
+     transition: height 1s;
+}
+#button{
+    color: black;
+    height:40px;
+    line-height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 30%;
+    margin-top: 5px
+}
+#search{
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+}

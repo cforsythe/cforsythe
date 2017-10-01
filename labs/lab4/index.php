@@ -41,22 +41,20 @@
         <br>
         
          <form>
-            <input type="text" name="keyword" placeholder="keyword" value="<?=$_GET['keyword']?>"/>
-            <input type="radio" id="lhorizontal" name="layout" value="horizontal" <?= ($_GET['layout'] == 'horizontal')?"checked":""  ?> >
-            <label for="lhorizontal"> Horizontal </label>
-            <input type="radio" id="lvertical" name="layout" value="vertical" <?= ($_GET['layout'] == 'vertical')?"checked":"" ?> >
-    
-            
-            <label for="lvertical"> Vertical </label>
-            
+            <input id='search' type="text" name="keyword" placeholder="Keyword" value="<?=$_GET['keyword']?>"/>
+            <input id='button' type="submit" value="Search"/>
+             <div id='radio'>
+                <input type="radio" id="lhorizontal" name="layout" value="horizontal" <?= ($_GET['layout'] == 'horizontal')?"checked":""  ?> >
+                <label for="lhorizontal"> Horizontal </label>
+                <input type="radio" id="lvertical" name="layout" value="vertical" <?= ($_GET['layout'] == 'vertical')?"checked":"" ?> >
+                <label for="lvertical"> Vertical </label>
+            </div>
             <select name="category">
                 <option value="">Select One</option>
                 <option <?=checkIfSelected('ocean')?> value="ocean">Sea</option>
                 <option <?=checkIfSelected('Forest')?> >Forest</option>
-                <option <?=checkIfSelected('Mountain')?> Mountain</option>
+                <option <?=checkIfSelected('Mountain')?> >Mountain</option>
             </select>
-            
-            <input type="submit" value="Search"/>
         </form>
         
         <br /><br />
