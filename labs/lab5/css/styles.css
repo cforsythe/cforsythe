@@ -1,0 +1,21 @@
+html{
+    text-align: center;
+}
+.search{
+    background-color: #778899;
+    padding-bottom: 15px;
+}
+h1{
+    margin: 0px;
+    padding: 20px;
+}
+hr{
+    width: 75%;
+}
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}

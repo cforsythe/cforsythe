@@ -1,0 +1,5 @@
+[11-Oct-2017 19:55:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cforsythe/practice/sql_joins.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/practice/sql_joins.php(7): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/practice/sql_joins.php on line 7
