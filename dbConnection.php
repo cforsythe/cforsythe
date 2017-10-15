@@ -10,8 +10,8 @@ function getDatabaseConnection(){
         $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
         $host = $url["host"];
         $dbname = substr($url["path"], 1);
-        $username = $url["root"];
-        $password = $url["mypass"];
+        $username = $url["user"];
+        $password = $url["pass"];
     } 
     
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
