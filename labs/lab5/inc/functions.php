@@ -58,7 +58,7 @@ function displayDevices(){
     foreach ($records as $record){
         echo  $record['deviceName'] . " " . $record['deviceType'] . " " .
               $record['price'] .  "  " . $record['status'] . 
-              "<a target='checkoutHistory' href='checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
+              "<a target='checkoutHistory' href='inc/checkoutHistory.php?deviceId=".$record['deviceId']."'> Checkout History </a> <br />";
     }
 }
 ?>
