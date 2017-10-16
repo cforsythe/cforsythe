@@ -32,7 +32,6 @@ function displayDevices(){
             $sql .= " AND deviceName LIKE :deviceName"; 
             $namedParameters[':deviceName'] = "%" . $_GET['deviceName'] . "%";
         }
-         
         if(!empty($_GET['deviceType']) && $_GET['deviceType'] != 'Select Category'){
             $sql .= " AND deviceType = :dType";
             $namedParameters[':dType'] =   $_GET['deviceType'];
@@ -49,6 +48,9 @@ function displayDevices(){
                 $sql .= " ORDER BY price ASC";
             }
         }
+    }
+    else{
+        $sql .= " ORDER BY deviceName ASC";
     }
     
     $stmt = $conn->prepare($sql);
