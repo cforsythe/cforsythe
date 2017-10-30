@@ -1,0 +1,17 @@
+#remove{
+    color: red;
+}
+#edit{
+    color: blue;
+}
+#showinfo{
+    color: black;
+}
+html{
+    padding-left:20px;
+    padding-right:20px;
+}
+#logout{
+    text-align: right;
+    padding-right: 20px;
+}
