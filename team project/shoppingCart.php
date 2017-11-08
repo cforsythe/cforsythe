@@ -11,7 +11,7 @@ function getCart(){
             echo 
             "<tr>" .
             "<td><a href='getFoodInfo.php?foodName=${items[$i]}'>" . $items[$i] . "</a></td>" .
-            "<td>" . $prices[$i] . "</td>". 
+            "<td> $" . $prices[$i] . "</td>". 
             "</tr>";
         }
         echo "</table";

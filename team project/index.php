@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../foodDbConnection.php';
+include '../dbConnection.php';
 $conn = getDatabaseConnection();
 function checkIfSelected($timeName){
     if($_GET['meal_time'] == $timeName){
@@ -70,13 +70,12 @@ function printFoods(){
         echo "<tr>
                 <td><a href='getFoodInfo.php?foodName=${food['foodName']}'>" . $food['foodName'] . "</a></td>
                 <td>". $food['calories'] . "</td>
-                <td>". $food['price'] . "</td>
+                <td> $". $food['price'] . "</td>
                 <td><button><a href='addToCart.php?item=${food['foodName']}&price=${food['price']}'>Add to cart</a></button></td>
             </tr>";
     }
     echo "</table>";
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -92,25 +91,29 @@ function printFoods(){
         </div>
         <br>
         <form>
-            <input id='textinput' type='text' name='food' placeholder='Food name' value=<?=$_GET['food']?>>
+            <input id='textinput' type='text' name='food' placeholder='Food Name' value=<?=$_GET['food']?>>
             <br>
-            Meal Time
-            <select name='meal_time'>
+            <br>
+            <div id = 'title'>Meal Time
+            <select name='meal_time' id="meanTime">
                 <option value="">Select One</option>
                 <?=getOptions()?>
             </select>
             Restaurant
-            <select name='restaurant'>
+            <select name='restaurant' id ='resturant'>
                 <option value="">Select One</option>
                 <?=getRestaurants()?>
             </select>
+            </div>
             <br>
+            <div id='selection'>
             Price: 
             <input id='asc' type='radio' name='sort' value='asc' <?=($_GET['sort'] == 'asc') ? "checked":""?>>
             <label for='asc'>Ascending</label>
             <input id='desc' type='radio' name='sort' value='desc' <?=($_GET['sort'] == 'desc') ? "checked":""?>>
             <label for='desc'>Descending</label>
             <br>
+            </div>
             <input type='submit' value="Submit">
         </form>
         <br>
