@@ -26,7 +26,6 @@ function updateBoard(){
     }
     
     $("#word").append("</br>");
-    $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
 }
 function createletters(){
     for(var letter of alphabet){
@@ -95,4 +94,8 @@ $(".letter").click(function(){
 });
 $(".replayBtn").on("click", function(){
     location.reload();
+});
+$("#hintbutton").on("click", function(){
+    $("#hint").html("Hint: " + selectedHint);
+    $("#hintbutton").hide();
 })

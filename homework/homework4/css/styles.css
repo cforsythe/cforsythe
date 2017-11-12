@@ -10,11 +10,15 @@ header{
     user-select: none;
 }
 html{
-    background: black;
+    background: black !important;
     color: white;
     text-align: center;
     margin-left: 40px;
     margin-right: 40px
+}
+body{
+    background: black !important;
+    color: white !important;
 }
 #gamearea{
     background:#a4a6a8;

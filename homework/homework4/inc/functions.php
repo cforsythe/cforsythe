@@ -8,6 +8,5 @@ switch($_POST["functionname"]){
         $picture = $pictures[array_rand($pictures)];
         $response['picture'] = "img/$picture.png";
         echo json_encode($response);
-    case 'getAverage':
 }
 ?>
