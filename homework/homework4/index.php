@@ -30,17 +30,17 @@ include 'inc/functions.php';
             function printStats(){
                 if(sessionStorage.avg){
                     var avg = sessionStorage.avg
-                    document.getElementById("average").innerHTML = "Your average time to click 10 targets is " + avg + " seconds";
+                    $("#average").html("Your average time to click 10 targets is " + avg + " seconds");
                 }
                 else{
-                    document.getElementById("average").innerHTML = "You have not yet set an average";
+                    $("#average").html("You have not yet set an average");
                 }
                 if(sessionStorage.highScore){
                     highScore = sessionStorage.highScore;
-                    document.getElementById("highscore").innerHTML = "Your high score for 10 targets is " + highScore + " seconds";
+                    $("#highscore").html("Your high score for 10 targets is " + highScore + " seconds");
                 }
                 else{
-                    document.getElementById("highscore").innerHTML = "You have not yet set a high score.";
+                    $("#highscore").html("You have not yet set a high score.");
                 }
             }
             printStats();
