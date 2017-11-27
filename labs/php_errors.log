@@ -502,3 +502,72 @@ Stack trace:
 [30-Oct-2017 00:14:39 UTC] PHP Stack trace:
 [30-Oct-2017 00:14:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/labs/lab6/index.php:0
 [30-Oct-2017 00:14:39 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/cforsythe/labs/lab6/index.php:2
+[27-Nov-2017 04:52:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 04:53:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 04:54:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 04:54:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 04:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 04:57:05 UTC] PHP Warning:  include(../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 4
+[27-Nov-2017 04:57:05 UTC] PHP Stack trace:
+[27-Nov-2017 04:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:0
+[27-Nov-2017 04:57:05 UTC] PHP Warning:  include(): Failed opening '../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 4
+[27-Nov-2017 04:57:05 UTC] PHP Stack trace:
+[27-Nov-2017 04:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:0
+[27-Nov-2017 04:57:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 5
+[27-Nov-2017 04:57:05 UTC] PHP Stack trace:
+[27-Nov-2017 04:57:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:0
+[27-Nov-2017 05:02:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:04:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:14:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:14:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:14:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:17:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
+[27-Nov-2017 05:20:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'' in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/labs/lab8/checkUsername.php on line 17
