@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Weather Forecast </title>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
+    <body>
+        <script>
+        function getCities(){
+            var zipcode = $("#zipcode").val();
+            $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: { "zip": zipcode},
+                success: function(data,status) {
+                    if(!data){
+                        $("#error").html(" Zip code not found");
+                        $("#city").val("");
+                        $("#weather").hide();
+                    }
+                    else{
+                        $("#city").val(data.city);
+                        $("#error").html("");
+                        getWeather(data.city);
+                        insertSearch(data.city);
+                        getTimesSearched(data.city);
+                    }
+                },
+            });
+        }
+        function getWeather(city){
+            $.ajax({
+                type: "POST",
+                url: "http://api.openweathermap.org/data/2.5/weather?q=" + city + ",us&units=imperial&appid=5d418eaab34ed503db8bc1646cd67b42",
+                dataType: "json",
+                success: function(data){
+                    $("#curr").html(data.main.temp + " F");
+                    $("#weather").show();
+                    get7Day(city);
+                },
+                error: function(){
+                    $("#error").html("City not found");
+                    $("#weather").hide();
+                }
+            });
+        }
+        function get7Day(city){
+            $.ajax({
+                type: "POST",
+                url: "http://api.openweathermap.org/data/2.5/forecast?q=" + city + ",us&units=imperial&appid=5d418eaab34ed503db8bc1646cd67b42",
+                dataType: "json",
+                success: function(data){
+                    console.log(data);
+                    $("#forecast").html("");
+                    $("#forecast").append("<tr><th>Time</th><th>Temp</th><th>Min</th><th>Max</th></tr>");
+                    for(var i = 0; i < data.list.length; i++){
+                        var obj = data.list[i];
+                        if(obj.dt_txt.substr(11,5) == "06:00"){
+                            $("#forecast").append("<tr><td>" + obj.dt_txt + "</td><td>" + obj.main.temp + " F</td><td>" + obj.main.temp_min + " F</td><td>" + obj.main.temp_max + " F</td></tr>")
+                        }
+                    }
+                }
+            });
+        }
+        function insertSearch(city){
+            $.ajax({
+                type: "POST",
+                url: "insertSearch.php",
+                data: {"city":city}
+            });
+        }
+        function getTimesSearched(city){
+            $.ajax({
+                type: "POST",
+                url: "getSearches.php",
+                data: {"city":city},
+                dataType: "json",
+                success: function(data){
+                    if(data.length > 0){
+                        $("#searched").html("")
+                        $("#searched").append("<span>'" + city + "' has been searched <strong>" + data.length + "</strong> time(s)</span><br>");
+                        $("#searched").append("<h4>Search History</h4>");
+                        for(var i = 0; i < data.length; i++){
+                            $("#searched").append("<span>" + data[i].time + "</span><br>");
+                        }
+                        $("#searched").show();
+                    }
+                }
+            })
+        }
+        $(document).ready(function(){
+            $("#zipcode").change(function(){
+                getCities();       
+            })
+            $("#city").change(function(){
+                getWeather($("#city").val());
+            });
+        });
+        </script>
+        <h1>Weather Forecast</h1>
+        City <input type="text" id="city">
+        Zipcode <input type="text" id="zipcode"><br>
+        <span id="error"></span>
+        
+        <div id="weather">
+            <h2 id='currweather'>Current weather</h2><h4 id='curr'></h4>
+            <h2 id='fiveday'>Five Day Forecast</h2>
+            <table id='forecast'>
+            </table>
+            <div id='searched'>
+            </div>
+        </div>
+    </body>
+</html>

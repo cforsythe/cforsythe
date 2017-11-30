@@ -92,6 +92,9 @@ function submit(){
     if(!checkPass()){
         $("#msg").html(" Passwords do not match");
     }
+    else if($("#pass1").val == ""){
+        $("#msg").html(" Passwords can not be blank");
+    }
     else{
         $("#msg").html(" Passwords are valid");
     }

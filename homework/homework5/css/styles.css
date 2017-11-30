@@ -1,0 +1,31 @@
+body{
+    text-align: center !important;
+}
+#weather{
+    display: none;
+}
+#currweather{
+    text-decoration: underline !important;
+}
+#fiveday{
+    text-decoration: underline !important;
+}
+#error{
+    color:red;
+}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4298f4;
+    color: white;
+}
+td, th{
+    border: 1px solid #ddd;
+    padding: 8px
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+table{
+    margin: auto;
+}

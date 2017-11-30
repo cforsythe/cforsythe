@@ -29,3 +29,19 @@
 [11-Oct-2017 10:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework3/index.php:0
 [11-Oct-2017 10:46:30 UTC] PHP   2. getMessage() /home/ubuntu/workspace/cforsythe/homework/homework3/index.php:13
 [11-Oct-2017 10:46:30 UTC] PHP   3. generateAnswer() /home/ubuntu/workspace/cforsythe/homework/homework3/inc/functions.php:38
+[30-Nov-2017 03:34:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'searched' cannot be null' in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php on line 14
+[30-Nov-2017 03:34:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''searched')
+        VALUES(NULL)' at line 1' in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php on line 14
+[30-Nov-2017 03:35:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'searched' cannot be null' in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php:14
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php(14): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php on line 14
