@@ -45,3 +45,6 @@ Stack trace:
 #0 /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php(14): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cforsythe/homework/homework5/insertSearch.php on line 14
+[30-Nov-2017 04:28:23 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cforsythe/dbConnection.php:3) in /home/ubuntu/workspace/cforsythe/dbConnection.php on line 3
+[30-Nov-2017 04:28:23 UTC] PHP Stack trace:
+[30-Nov-2017 04:28:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/homework/homework5/getSearches.php:0
