@@ -24,7 +24,7 @@
         
         $(".petLink").click( function(){
             
-            //alert($(this).attr('id'));
+            $("#petInfo").html("<img src='img/loading.gif'>");
             
             $.ajax({
 
@@ -40,17 +40,13 @@
                                        data.description);   
                                        
                     $('#petInfoModal').modal("show");
-                    $("#petNameModalLabel").modal(pet.name);
+                    $("#petNameModalLabel").html(data.name);
                 
                 },
-                complete: function(data,status) { //optional, used for debugging purposes
-                //alert(status);
-                }
-                
-            });//ajax
+            });
             
             
-        }); //.getLink click
+        });
         
     });//document.ready
 
