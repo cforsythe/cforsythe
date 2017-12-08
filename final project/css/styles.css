@@ -1,0 +1,111 @@
+#coinpic{
+    width: 100px;
+    height: 100px;
+}
+#coinname{
+    display: inline-block;
+    font-size:40px;
+    margin: 0;
+}
+#bold{
+    font-weight: bold;
+    padding-left: 3px;
+}
+#pricedivAdmin{
+    padding-top: 5px !important;
+    display: inline-block;
+    text-align: left;
+}
+#pricediv{
+    padding-top: 5px !important;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+#coin{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+body{
+    text-align: center !important;
+}
+#coininfo{
+    display: inline-block !important;
+    text-align: left !important;
+    width:50% !important;
+}
+a{
+    text-decoration: none;
+    color: #417fe2;
+    padding-left: 2px;
+}
+a:hover{
+    text-decoration: underline;
+    color: #225ab5;
+}
+#button{
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 8px 58px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#loginpage{
+     position: absolute;
+      width: 300px;
+      height: 200px;
+      z-index: 15;
+      top: 50%;
+      left: 50%;
+      margin: -165px 0 0 -150px;
+}
+#small{
+    text-align: left;
+    width: 100%;
+}
+#username, #password{
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}
+#loginbutton{
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+    padding-right: 2%;
+}
+#error{
+    color: red;
+    padding-left: 5px;
+}
+.width{
+    width: 95%;
+    margin: 5px !important;
+}
+#coinwrapper{
+    text-align: left;
+    width: 90%;
+    margin-left: 20%;
+}
+#pricewrapper{
+    display: inline-block;
+    text-align: right;
+}
+#inputs{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.modalInput{
+    width: 100%;
+}
+.padding{
+    margin: 5px;
+}

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../dbConnection.php';
+include '../foodDbConnection.php';
 $conn = getDatabaseConnection();
 function checkIfSelected($timeName){
     if($_GET['meal_time'] == $timeName){

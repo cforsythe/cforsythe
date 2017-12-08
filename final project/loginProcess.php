@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include '../dbConnection.php';
+include '../finalDbConnection.php';
 $conn = getDatabaseConnection();
 
 $username = $_POST['username'];
@@ -24,6 +24,7 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (empty($record)) {
     $_SESSION['error'] = true;
+    header("Location: login.php");
 } else {
     $_SESSION['username'] = $record['username'];
     header("Location: admin.php");

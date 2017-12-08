@@ -368,3 +368,294 @@ Stack trace:
 [20-Oct-2017 21:27:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/midterm/program1.php:0
 [20-Oct-2017 21:27:42 UTC] PHP   2. displayHolidays() /home/ubuntu/workspace/cforsythe/midterm/program1.php:118
 [20-Oct-2017 21:27:42 UTC] PHP   3. rand() /home/ubuntu/workspace/cforsythe/midterm/program1.php:41
+[06-Dec-2017 09:30:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cforsythe/final project/index.php on line 10
+[06-Dec-2017 09:30:44 UTC] PHP Stack trace:
+[06-Dec-2017 09:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/final project/index.php:0
+[06-Dec-2017 09:30:44 UTC] PHP   2. printCoins() /home/ubuntu/workspace/cforsythe/final project/index.php:32
+[06-Dec-2017 09:31:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cforsythe/final project/index.php on line 10
+[06-Dec-2017 09:31:49 UTC] PHP Stack trace:
+[06-Dec-2017 09:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/final project/index.php:0
+[06-Dec-2017 09:31:49 UTC] PHP   2. printCoins() /home/ubuntu/workspace/cforsythe/final project/index.php:32
+[06-Dec-2017 09:32:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''coins'
+            NATURAL JOIN type
+            NATURAL JOIN algorithm
+       ' at line 1' in /home/ubuntu/workspace/cforsythe/final project/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/index.php(12): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cforsythe/final project/index.php(33): printCoins()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/index.php on line 12
+[06-Dec-2017 10:06:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''coins'
+            NATURAL JOIN cointypes
+            NATURAL JOIN algorithm
+  ' at line 1' in /home/ubuntu/workspace/cforsythe/final project/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/index.php(12): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cforsythe/final project/index.php(33): printCoins()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/index.php on line 12
+[06-Dec-2017 10:08:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cforsythe/final project/index.php on line 16
+[06-Dec-2017 10:19:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cforsythe/final project/index.php on line 18
+[06-Dec-2017 11:20:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cforsythe/final project/generate.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(21): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 21
+[06-Dec-2017 11:22:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/cforsythe/final project/generate.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(21): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 21
+[06-Dec-2017 11:33:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cforsythe/final project/functions.php on line 7
+[06-Dec-2017 11:33:28 UTC] PHP Stack trace:
+[06-Dec-2017 11:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/final project/index.php:0
+[06-Dec-2017 11:33:28 UTC] PHP   2. getOptions() /home/ubuntu/workspace/cforsythe/final project/index.php:20
+[06-Dec-2017 11:35:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cforsythe/final project/functions.php on line 7
+[06-Dec-2017 11:35:16 UTC] PHP Stack trace:
+[06-Dec-2017 11:35:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/final project/index.php:0
+[06-Dec-2017 11:35:16 UTC] PHP   2. getOptions() /home/ubuntu/workspace/cforsythe/final project/index.php:20
+[06-Dec-2017 11:35:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''algorithm'' at line 1' in /home/ubuntu/workspace/cforsythe/final project/functions.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/functions.php(9): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cforsythe/final project/index.php(20): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/functions.php on line 9
+[06-Dec-2017 11:44:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='CryptoNight'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:45:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Delegated Proof of Stake'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:47:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg=':algorithm'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:47:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Equihash'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:51:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg LIKE 'Scrypt'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:52:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='\"CryptoNight\"'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:52:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='\\\"CryptoNight\\\"'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:53:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='/\"Ethash/\"'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:54:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='\'Ouroboros\''' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:58:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Ethash'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:58:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Ouroboros'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 11:58:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Proof+of+Stake+3.0'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:04:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg=":algorithm"' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:09:55 UTC] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 21
+[06-Dec-2017 12:09:55 UTC] PHP Stack trace:
+[06-Dec-2017 12:09:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cforsythe/final project/generate.php:0
+[06-Dec-2017 12:09:55 UTC] PHP   2. mysqli_real_escape_string() /home/ubuntu/workspace/cforsythe/final project/generate.php:21
+[06-Dec-2017 12:09:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg=NULL' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:12:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='\'X11\''' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:12:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Ethash'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:12:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Delegated+Proof+of+Stake'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:14:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg=':algorithm'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:17:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.time' doesn't exist' in /home/ubuntu/workspace/cforsythe/team project/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/team project/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cforsythe/team project/index.php(100): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/team project/index.php on line 19
+[06-Dec-2017 12:17:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tcp.time' doesn't exist' in /home/ubuntu/workspace/cforsythe/team project/index.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/team project/index.php(19): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cforsythe/team project/index.php(100): getOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/team project/index.php on line 19
+[06-Dec-2017 12:20:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg=':algorithm'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:21:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='\'\'Equihash\'\''' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:23:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg LIKE '\"Ouroboros\"'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:28:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg LIKE 'CryptoNight'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:28:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='CryptoNight'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:29:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Scrypt'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:33:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Equihash'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:33:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='X11'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:33:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg='Scrypt'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:36:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg = 'CryptoNight'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 25
+[06-Dec-2017 12:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg = 'CryptoNight'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 26
+[06-Dec-2017 12:43:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND alg = 'SHA256'' at line 4' in /home/ubuntu/workspace/cforsythe/final project/generate.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/generate.php(26): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 26
+[06-Dec-2017 13:08:12 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 37
+[06-Dec-2017 21:25:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 57
+[06-Dec-2017 21:30:26 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cforsythe/final project/generate.php on line 57
+[07-Dec-2017 02:00:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'finalProject.algorithms' doesn't exist' in /home/ubuntu/workspace/cforsythe/final project/getInfo.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/getInfo.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/getInfo.php on line 18
+[07-Dec-2017 06:19:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aldId' in 'field list'' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 23
+[07-Dec-2017 06:20:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'aldId' in 'field list'' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 23
+[07-Dec-2017 06:21:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:23:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:24:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:24:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:26:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:28:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 06:33:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php:24
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/insertCoin.php(24): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/insertCoin.php on line 24
+[07-Dec-2017 07:25:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cforsythe/final project/updateCoin.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/updateCoin.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/updateCoin.php on line 33
+[07-Dec-2017 07:34:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php(16): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php on line 16
+[07-Dec-2017 07:35:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php(16): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php on line 16
+[07-Dec-2017 07:36:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php(16): PDOStatement->fetch(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cforsythe/final project/deleteCoin.php on line 16
